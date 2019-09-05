@@ -15,6 +15,8 @@ class App < Sinatra::Base
         Hero.new(member_detail)
       end 
       
+      @heroes = Hero.all 
+      
       erb :'views/team'
     end 
 end
