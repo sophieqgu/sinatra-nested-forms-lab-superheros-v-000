@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require_reletaive '../app/models/hero'
+require_reletaive '../app/models/team'
 require_reletaive '../app/models/hero'
 
 
