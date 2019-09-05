@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require_reletaive '../app/models/hero'
+require_reletaive '../app/models/hero'
 
 
 class App < Sinatra::Base
